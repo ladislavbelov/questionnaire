@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body class="page__body">
+    <header class="header">
+        <nav class="login-menu">
+            <ul class="login-menu__list">
+                <li class="login-menu__item">
+                    <a href="" class="login-menu__link">LOG IN</a>
+                </li>
+                <li class="login-menu__item">
+                    <a href="" class="login-menu__link">REGISTER</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container top-nav-container">
+            <div class="top-nav-logo">
+                <a href="#" class="logo__link">
+                    <img class="logo__image" width="111" height="106" src="assets/images/context/truity_logo.png" alt="Truity logo">
+                </a>
+            </div>
+            <nav class="main-menu">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Home</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link main-menu__link--active">PERSONALITY TESTS</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">PERSONALITY TYPES</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">DISCUSSION</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+    </div>
+    </header>
+    <main class="main">
+        <section class="top-banner">
+            <div class="top-banner__text container">
+                <div class="top-banner__heading">
+                    <h2>The TypeFinder<span>®</span><br>Research Edition</h2>
+                </div>
+                <div class="top-banner__features">
+                    <div class="features-item">
+                        <img src="assets/images/icons/test-price-big.png" width="32" height="32" alt="price icon">
+                        <span>Price: Free!</span>
+                    </div>
+                    <div class="features-item">
+                        <img src="assets/images/icons/test-time-big.png" width="32" height="32" alt="time icon">
+                        <span>Time to Take: 20 Minutes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about">
+            <a href="#" class="section-about__link">ABOUT THIS tests</a>
+        </section>
+        <section class="section-questions">
+            <div class="container">
+            <div class="section-questions__nav">
+                <div class="progerss-number">
+                    <span class="progerss-number__icon"></span>
+                    <span class="progerss-number__text" id="progerss-number__text">Questions: </span>
+                    <span class="progerss-number__actual" id="progerss-number__actual">5</span>
+                    <span class="progerss-number__separator">/</span>
+                    <span class="progerss-number__total" id="progerss-number__total">52</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-bar__item">
+                        <div class="progress-bar__item-text" id="">
+                            <div class="progress-bar__item-section" id="">SECTION ONE</div>
+                            <div class="progress-bar__item-question-numb" id="">12 Questions</div>
+                        </div>
+                        <div class="progress-bar__item-bar" id="">
+                            <div class="progress-bar__border">
+                                <div class="progress-bar__progress progress-bar__progress-active"id=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar__item">
+                        <div class="progress-bar__item-text" id="">
+                            <div class="progress-bar__item-section id="">SECTION TWO</div>
+                            <div class="progress-bar__item-question-numb" id="">32 Questions</div>
+                        </div>
+                        <div class="progress-bar__item-bar" id="">
+                            <div class="progress-bar__border">
+                                <div class="progress-bar__progress"id=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar__item">
+                        <div class="progress-bar__item-text" id="">
+                            <div class="progress-bar__item-section id="">SECTION THREE</div>
+                            <div class="progress-bar__item-question-numb" id="">32 Questions</div>
+                        </div>
+                        <div class="progress-bar__item-bar" id="">
+                            <div class="progress-bar__border">
+                                <div class="progress-bar__progress"id=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="" method="post">
+            <div class="questions-block">
+                <div class="questions-block__top">
+                    <p>From each pair, choose the word that describes you best.</p>
+                </div>
+                <div class="questions-block__item" id="attention">
+                    <p class="questions-block__text">I seek attention from others</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="attention_1">
+                                <input id="attention_1" name="attention" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="attention_2">
+                                <input id="attention_2" name="attention" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="attention_3">
+                                <input id="attention_3" name="attention" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="attention_4">
+                                <input id="attention_4" name="attention" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="attention_5">
+                                <input id="attention_5" name="attention" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I avoid attention from others</p>
+                </div>
+                <div class="questions-block__item" id="innovate">
+                    <p class="questions-block__text">I like to try innovate</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="innovate_1">
+                                <input id="innovate_1" name="innovate" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="innovate_2">
+                                <input id="innovate_2" name="innovate" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="innovate_3">
+                                <input id="innovate_3" name="innovate" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="innovate_4">
+                                <input id="innovate_4" name="innovate" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="innovate_5">
+                                <input id="innovate_5" name="innovate" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I like to use trusted methods</p>
+                </div>
+                <div class="questions-block__item" id="needs">
+                    <p class="questions-block__text">I put my needs first</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="needs_1">
+                                <input id="needs_1" name="needs" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="needs_2">
+                                <input id="needs_2" name="needs" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="needs_3">
+                                <input id="needs_3" name="needs" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="needs_4">
+                                <input id="needs_4" name="needs" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="needs_5">
+                                <input id="needs_5" name="needs" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I put others' needs ahead of my own</p>
+                </div>
+                <div class="questions-block__item" id="organized">
+                    <p class="questions-block__text">I am often disorganized</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="organized_1">
+                                <input id="organized_1" name="organized" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="organized_2">
+                                <input id="organized_2" name="organized" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="organized_3">
+                                <input id="organized_3" name="organized" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="organized_4">
+                                <input id="organized_4" name="organized" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="organized_5">
+                                <input id="organized_5" name="organized" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I keep myself organized</p>
+                </div>
+                <div class="questions-block__item" id="privacy">
+                    <p class="questions-block__text">I value my social status</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="privacy_1">
+                                <input id="privacy_1" name="privacy" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="privacy_2">
+                                <input id="privacy_2" name="privacy" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="privacy_3">
+                                <input id="privacy_3" name="privacy" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="privacy_4">
+                                <input id="privacy_4" name="privacy" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="privacy_5">
+                                <input id="privacy_5" name="privacy" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I value my privacy</p>
+                </div>
+                <div class="questions-block__item" id="values">
+                    <p class="questions-block__text">I trust traditional values</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="values_1">
+                                <input id="values_1" name="values" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="values_2">
+                                <input id="values_2" name="values" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="values_3">
+                                <input id="values_3" name="values" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="values_4">
+                                <input id="values_4" name="values" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="values_5">
+                                <input id="values_5" name="values" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I question traditional values</p>
+                </div>
+                <div class="questions-block__item" id="care">
+                    <p class="questions-block__text">I make sure everyone is taken care of</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="care_1">
+                                <input id="care_1" name="care" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="care_2">
+                                <input id="care_2" name="care" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="care_3">
+                                <input id="care_3" name="care" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="care_4">
+                                <input id="care_4" name="care" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="care_5">
+                                <input id="care_5" name="care" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I look up for myself</p>
+                </div>
+                <div class="questions-block__item" id="prepared">
+                    <p class="questions-block__text">I am always prepared</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="prepared_1">
+                                <input id="prepared_1" name="prepared" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="prepared_2">
+                                <input id="prepared_2" name="prepared" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="prepared_3">
+                                <input id="prepared_3" name="prepared" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="prepared_4">
+                                <input id="prepared_4" name="prepared" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="prepared_5">
+                                <input id="prepared_5" name="prepared" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I am often unprepared</p>
+                </div>
+                <div class="questions-block__item" id="friends">
+                    <p class="questions-block__text">I choose my friends carefully</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="friends_1">
+                                <input id="friends_1" name="friends" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="friends_2">
+                                <input id="friends_2" name="friends" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="friends_3">
+                                <input id="friends_3" name="friends" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="friends_4">
+                                <input id="friends_4" name="friends" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="friends_5">
+                                <input id="friends_5" name="friends" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I make new friends quickly</p>
+                </div>
+                <div class="questions-block__item" id="imagination">
+                    <p class="questions-block__text">I focus on real life</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="imagination_1">
+                                <input id="imagination_1" name="imagination" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="imagination_2">
+                                <input id="imagination_2" name="imagination" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="imagination_3">
+                                <input id="imagination_3" name="imagination" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="imagination_4">
+                                <input id="imagination_4" name="imagination" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="imagination_5">
+                                <input id="imagination_5" name="imagination" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I use my imagination</p>
+                </div>
+                <div class="questions-block__item" id="pain">
+                    <p class="questions-block__text">I feel the pain of other people</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="pain_1">
+                                <input id="pain_1" name="pain" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="pain_2">
+                                <input id="pain_2" name="pain" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="pain_3">
+                                <input id="pain_3" name="pain" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="pain_4">
+                                <input id="pain_4" name="pain" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="pain_5">
+                                <input id="pain_5" name="pain" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I am not easily affected by sad stories</p>
+                </div>
+                <div class="questions-block__item" id="plan">
+                    <p class="questions-block__text">I follow a plan</p>
+                    <div class="questions-block__inputs">
+                        <div class="checkbox__container">
+                            <label for="plan_1">
+                                <input id="plan_1" name="plan" type="radio" value="1">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="plan_2">
+                                <input id="plan_2" name="plan" type="radio" value="2">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="plan_3">
+                                <input id="plan_3" name="plan" type="radio" value="3">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="plan_4">
+                                <input id="plan_4" name="plan" type="radio" value="4">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                        <div class="checkbox__container">
+                            <label for="plan_5">
+                                <input id="plan_5" name="plan" type="radio" value="5">
+                                <span class="checkbox"><span></span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="questions-block__text ta-l">I act on impuls</p>
+                </div>
+            </div>
+            
+            <div class="questions-block__next">
+                <p class="submit-tip" >Please <a href="#" id="mis">back</a> and answer all the questions</p>
+                <button class="questions-block__next-link type="submit">NEXT PAGE</button>
+            </div>
+        </form>
+        </div>
+            </div>
+        </section>
+        <section class="section-subscribe">
+            <div class="container">
+            <h3 class="section-subscribe__heading">TRUITY UP TO DATE</h3>
+            <h4 class="section-subscribe__heading">Subscribe to Newsletter</h4>
+            <p class="section-subscribe__paragraph">Subscribe to our newsletter to receive updates when we post new blogs and other content.</p>
+            <form method="post" action="" class="modal__form">
+                <div class="form__group">
+                    <input class="field field--text field--full-width" required type="email" name="email" placeholder="Your email address" value="" id="subscribe-email" data-email-suggest="on">
+                    <p class="form__notice"></p>
+                </div>
+                <div class="form__group">
+                    <input class="field field--text" type="text" name="name" required placeholder="Your name" value="" id="subscribe-name">
+                    <p class="form__notice"></p>
+                </div>
+                <input class="button" type="submit" name="" id="" value="SIGN UP">
+            </form>
+        </div>   
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo container">
+            <a href="#" class="logo__link">
+                <img class="logo__image" width="93" height="88" src="assets/images/context/truity_logo.png" alt="Truity logo">
+            </a>
+        </div>
+        <div class="footer__social container">
+            <ul class="footer__social__list">
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-facebook" aria-label="Facebook"></a>
+                </li>
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-twi" aria-label="Twitter"></a>
+                </li>
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-google" aria-label="Google +"></a>
+                </li>
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-youtube" aria-label="Youtube"></a>
+                </li>
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-in" aria-label="Linkedin"></a>
+                </li>
+                <li class="footer__social__item">
+                    <a href="#" class="footer__social__link icon-pin" aria-label="Pinterest"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__menu">
+            <nav class="container main-menu">
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Home</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">How it works</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Pricing</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Resources</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Take the test</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__copyright">
+            <p class="container">Copyright © 2015, TRUITY. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+  <script>
+  $(".questions-block__next-link").click(function (event) {
+    // event.preventDefault;
+    var flag = true;
+    $(':radio').each(function () {
+        name = $(this).attr('name');
+        if (flag && !$(':radio[name="' + name + '"]:checked').length) {
+            $('.submit-tip').css({ display: "block" });
+            $('#mis').html("go back");
+            $("#mis").attr("href", '#'+ name);
+            flag = false;
+        }
+    });
+    $('.questions-block__item').each(function () {
+            if ( $(this).hasClass("ready") ) {
+        } else {
+            $(this).addClass("warn");
+        }
+    });
+    return flag;
+});
+  </script>
+  <script>
+$('input:radio').change(function(){
+  $(this).parents('.questions-block__item').addClass('ready');
+});
+  </script>
+</body>
+</html>
