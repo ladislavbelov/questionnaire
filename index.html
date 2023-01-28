@@ -640,33 +640,6 @@
   src="https://code.jquery.com/jquery-3.6.3.min.js"
   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
   crossorigin="anonymous"></script>
-
-  <script>
-  $(".questions-block__next-link").click(function (event) {
-    // event.preventDefault;
-    var flag = true;
-    $(':radio').each(function () {
-        name = $(this).attr('name');
-        if (flag && !$(':radio[name="' + name + '"]:checked').length) {
-            $('.submit-tip').css({ display: "block" });
-            $('#mis').html("go back");
-            $("#mis").attr("href", '#'+ name);
-            flag = false;
-        }
-    });
-    $('.questions-block__item').each(function () {
-            if ( $(this).hasClass("ready") ) {
-        } else {
-            $(this).addClass("warn");
-        }
-    });
-    return flag;
-});
-  </script>
-  <script>
-$('input:radio').change(function(){
-  $(this).parents('.questions-block__item').addClass('ready');
-});
-  </script>
+<script src="assets/scripts/script.js"></script>
 </body>
 </html>
